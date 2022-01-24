@@ -27,7 +27,7 @@ public class PrivateKey {
         SecureRandom r = new SecureRandom();
         
         do{
-            p = new BigInteger(2048, r); 
+            p = new BigInteger(128, r); 
             check = getPrimo(p);
 
         }while (check == false);
