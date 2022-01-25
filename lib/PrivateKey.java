@@ -27,13 +27,13 @@ public class PrivateKey {
         SecureRandom r = new SecureRandom();
         
         do{
-            p = new BigInteger(128, r); 
+            p = new BigInteger(15, r); 
             check = getPrimo(p);
 
         }while (check == false);
 		check = false;
 		do{
-            q = new BigInteger(2048, r); 
+            q = new BigInteger(15, r); 
             check = getPrimo(q);
 
         }while (check == false);

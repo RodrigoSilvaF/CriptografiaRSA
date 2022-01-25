@@ -10,7 +10,6 @@ public class GenerateKeys {
     static void Generate(){
         PrivateKey.generatePrime();
         PrivateKey.inverseMult();
-        System.out.println("OI");
         PrivateKeyDic.put("n", PublicKey.n);
         PrivateKeyDic.put("d", PrivateKey.d);
         PublicKeyDic.put("n", PublicKey.n);
