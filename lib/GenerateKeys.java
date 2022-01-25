@@ -1,3 +1,7 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.math.BigInteger;
 import java.util.Dictionary;
 import java.util.Hashtable;
@@ -15,5 +19,14 @@ public class GenerateKeys {
         PrivateKeyDic.put("d", PrivateKey.d);
         PublicKeyDic.put("n", PublicKey.n);
         PublicKeyDic.put("e", PublicKey.e);
+        try(FileWriter fw = new FileWriter("TextoCriptografado.txt", true);
+                BufferedWriter bw = new BufferedWriter(fw);
+                PrintWriter out = new PrintWriter(bw))
+                {   
+                out.println(PrivateKeyDic);
+                out.println(PublicKeyDic);   
+                } catch (IOException e) {
+                    //exception handling left as an exercise for the reader
+            }
     }
 }
