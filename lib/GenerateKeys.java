@@ -14,17 +14,22 @@ public class GenerateKeys {
     static void Generate(){
         PrivateKey.generatePrime();
         PrivateKey.inverseMult();
-        System.out.println("OI");
         PrivateKeyDic.put("n", PublicKey.n);
         PrivateKeyDic.put("d", PrivateKey.d);
         PublicKeyDic.put("n", PublicKey.n);
         PublicKeyDic.put("e", PublicKey.e);
-        try(FileWriter fw = new FileWriter("TextoCriptografado.txt", true);
+        try(FileWriter fw = new FileWriter("Chaves.txt", true);
                 BufferedWriter bw = new BufferedWriter(fw);
                 PrintWriter out = new PrintWriter(bw))
                 {   
-                out.println(PrivateKeyDic);
-                out.println(PublicKeyDic);   
+                out.println("Chave privada D");
+                out.println(PrivateKeyDic.get("d"));
+                out.println("Chave privada N");
+                out.println(PrivateKeyDic.get("n"));
+                out.println("Chave publica E");
+                out.println(PublicKeyDic.get("e"));   
+                out.println("Chave publica N");
+                out.println(PublicKeyDic.get("n"));
                 } catch (IOException e) {
                     //exception handling left as an exercise for the reader
             }
