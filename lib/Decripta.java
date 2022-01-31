@@ -8,6 +8,8 @@ public class Decripta {
         aux = n;
         aux3 = new BigInteger("1");
         do{ 
+            System.out.println(cont);
+            cont++;
             aux = aux.subtract(BigInteger.ONE);
             if (aux.isProbablePrime(1)) {
                 //System.out.println("Possivel primo maior");

@@ -1,0 +1,128 @@
+Tamanho da chave: 64
+ Tempo de geracao de chave >>>> 0.101
+ Tempo de encriptacao >>>> 0.012
+ Tempo de desencriptacao >>>> 0.014
+Tamanho da chave: 128
+ Tempo de geracao de chave >>>> 0.011
+ Tempo de encriptacao >>>> 0.012
+ Tempo de desencriptacao >>>> 0.009
+Tamanho da chave: 192
+ Tempo de geracao de chave >>>> 0.007
+ Tempo de encriptacao >>>> 0.012
+ Tempo de desencriptacao >>>> 0.011
+Tamanho da chave: 256
+ Tempo de geracao de chave >>>> 0.014
+ Tempo de encriptacao >>>> 0.012
+ Tempo de desencriptacao >>>> 0.013
+Tamanho da chave: 320
+ Tempo de geracao de chave >>>> 0.018
+ Tempo de encriptacao >>>> 0.011
+ Tempo de desencriptacao >>>> 0.017
+Tamanho da chave: 384
+ Tempo de geracao de chave >>>> 0.037
+ Tempo de encriptacao >>>> 0.009
+ Tempo de desencriptacao >>>> 0.019
+Tamanho da chave: 448
+ Tempo de geracao de chave >>>> 0.059
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.026
+Tamanho da chave: 512
+ Tempo de geracao de chave >>>> 0.038
+ Tempo de encriptacao >>>> 0.006
+ Tempo de desencriptacao >>>> 0.029
+Tamanho da chave: 576
+ Tempo de geracao de chave >>>> 0.075
+ Tempo de encriptacao >>>> 0.007
+ Tempo de desencriptacao >>>> 0.04
+Tamanho da chave: 640
+ Tempo de geracao de chave >>>> 0.101
+ Tempo de encriptacao >>>> 0.007
+ Tempo de desencriptacao >>>> 0.048
+Tamanho da chave: 704
+ Tempo de geracao de chave >>>> 0.3
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.056
+Tamanho da chave: 768
+ Tempo de geracao de chave >>>> 0.186
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.07
+Tamanho da chave: 832
+ Tempo de geracao de chave >>>> 0.361
+ Tempo de encriptacao >>>> 0.01
+ Tempo de desencriptacao >>>> 0.089
+Tamanho da chave: 896
+ Tempo de geracao de chave >>>> 0.102
+ Tempo de encriptacao >>>> 0.007
+ Tempo de desencriptacao >>>> 0.107
+Tamanho da chave: 960
+ Tempo de geracao de chave >>>> 0.142
+ Tempo de encriptacao >>>> 0.009
+ Tempo de desencriptacao >>>> 0.126
+Tamanho da chave: 1024
+ Tempo de geracao de chave >>>> 0.865
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.16
+Tamanho da chave: 1088
+ Tempo de geracao de chave >>>> 0.717
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.2
+Tamanho da chave: 1152
+ Tempo de geracao de chave >>>> 0.589
+ Tempo de encriptacao >>>> 0.007
+ Tempo de desencriptacao >>>> 0.223
+Tamanho da chave: 1216
+ Tempo de geracao de chave >>>> 1.267
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.286
+Tamanho da chave: 1280
+ Tempo de geracao de chave >>>> 1.292
+ Tempo de encriptacao >>>> 0.017
+ Tempo de desencriptacao >>>> 0.331
+Tamanho da chave: 1344
+ Tempo de geracao de chave >>>> 1.598
+ Tempo de encriptacao >>>> 0.009
+ Tempo de desencriptacao >>>> 0.359
+Tamanho da chave: 1408
+ Tempo de geracao de chave >>>> 2.241
+ Tempo de encriptacao >>>> 0.009
+ Tempo de desencriptacao >>>> 0.372
+Tamanho da chave: 1472
+ Tempo de geracao de chave >>>> 1.248
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.426
+Tamanho da chave: 1536
+ Tempo de geracao de chave >>>> 1.403
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.493
+Tamanho da chave: 1600
+ Tempo de geracao de chave >>>> 2.046
+ Tempo de encriptacao >>>> 0.009
+ Tempo de desencriptacao >>>> 0.541
+Tamanho da chave: 1664
+ Tempo de geracao de chave >>>> 2.697
+ Tempo de encriptacao >>>> 0.008
+ Tempo de desencriptacao >>>> 0.603
+Tamanho da chave: 1728
+ Tempo de geracao de chave >>>> 1.457
+ Tempo de encriptacao >>>> 0.009
+ Tempo de desencriptacao >>>> 0.668
+Tamanho da chave: 1792
+ Tempo de geracao de chave >>>> 1.52
+ Tempo de encriptacao >>>> 0.01
+ Tempo de desencriptacao >>>> 0.744
+Tamanho da chave: 1856
+ Tempo de geracao de chave >>>> 7.408
+ Tempo de encriptacao >>>> 0.009
+ Tempo de desencriptacao >>>> 0.906
+Tamanho da chave: 1920
+ Tempo de geracao de chave >>>> 7.977
+ Tempo de encriptacao >>>> 0.012
+ Tempo de desencriptacao >>>> 0.973
+Tamanho da chave: 1984
+ Tempo de geracao de chave >>>> 11.042
+ Tempo de encriptacao >>>> 0.01
+ Tempo de desencriptacao >>>> 1.048
+Tamanho da chave: 2048
+ Tempo de geracao de chave >>>> 6.883
+ Tempo de encriptacao >>>> 0.014
+ Tempo de desencriptacao >>>> 1.086

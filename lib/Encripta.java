@@ -14,8 +14,7 @@ public class Encripta {
     
 
     //A = Mensagem, E = Coprime entre 1 < e < MMC(P-1,Q-1), N = PRIMO 1 * PRIMO 2, KEY = KEY ;)
-    static String encriptar(){
-
+    static void encriptar(){
         try {
             FileReader arq = new FileReader("C:/Users/Rodrigo/Documents/UDESC/Backup/UDESC 2021-2/CAL/Trabalho 1/CriptografiaRSA/RSA/src/texto.txt");
             BufferedReader lerArq = new BufferedReader(arq);
@@ -38,11 +37,6 @@ public class Encripta {
               System.err.printf("Erro na abertura do arquivo: %s.\n",
                 e.getMessage());
           }
-
-
-
-        
-        return msgencriptada;
     }
 
     //A = Mensagem Codificada, D = INVERSOMULT (E, LAMB), onde lamb eh o mmc de (p-1,q-1), KEY = KEY

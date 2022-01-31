@@ -2,6 +2,7 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 
 public class PrivateKey {
+	public static int bitlengh = 0;
     static BigInteger p, q, d;
     public static BigInteger m;
 
@@ -27,13 +28,13 @@ public class PrivateKey {
         SecureRandom r = new SecureRandom();
         
         do{
-            p = new BigInteger(15, r); 
+            p = new BigInteger(bitlengh, r); 
             check = getPrimo(p);
 
         }while (check == false);
 		check = false;
 		do{
-            q = new BigInteger(15, r); 
+            q = new BigInteger(bitlengh, r); 
             check = getPrimo(q);
 
         }while (check == false);
