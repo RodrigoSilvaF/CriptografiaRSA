@@ -19,7 +19,7 @@ public class PrivateKey {
 
     //Calcular o Inverso Multiplicativo D
 	static void inverseMult(){
-		d = PublicKey.e.modInverse(m);
+		d = EuclidianoExt.y1;
 	}
 
     //Gera valores aleatorios enquanto nao se acha um primo.
